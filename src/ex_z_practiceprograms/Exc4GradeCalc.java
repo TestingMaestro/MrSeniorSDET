@@ -1,4 +1,4 @@
-package ex_000_practiceprograms;
+package ex_z_practiceprograms;
 
 public class Exc4GradeCalc {
     static void main(String[] args) {

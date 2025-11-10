@@ -1,4 +1,4 @@
-package ex_000_practiceprograms;
+package ex_z_practiceprograms;
 
 public class Exc9AreaOfCircle {
     static final double PI = 3.1415;

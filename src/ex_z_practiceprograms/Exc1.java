@@ -1,4 +1,4 @@
-package ex_000_practiceprograms;
+package ex_z_practiceprograms;
 
 public class Exc1 {
     static void main(String[] args) {

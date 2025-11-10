@@ -1,4 +1,4 @@
-package ex_000_practiceprograms;
+package ex_z_practiceprograms;
 
 public class Exc6SquareOfaNumberUsingMethods {
     static void main(String[] args) {

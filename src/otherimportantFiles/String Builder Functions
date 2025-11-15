@@ -1,0 +1,70 @@
+🔥 Most Important StringBuilder Methods
+1️⃣ append()
+Adds text at the end.
+
+StringBuilder sb = new StringBuilder("Hello");
+sb.append(" World");  // Hello World
+
+2️⃣ insert()
+Inserts text at a specific index.
+
+sb.insert(5, " Java");  // Hello Java World
+
+3️⃣ replace()
+Replaces part of the string between start and end index.
+
+sb.replace(0, 5, "Hi");  // Hi Java World
+
+4️⃣ delete()
+Deletes characters between start and end.
+
+sb.delete(3, 8);  // Hi rld  (depending on previous state)
+
+5️⃣ deleteCharAt()
+Deletes a single character at given index.
+
+sb.deleteCharAt(2);
+
+6️⃣ reverse()
+Reverses the entire string.
+
+sb.reverse();
+
+7️⃣ capacity()
+Returns the current storage capacity.
+
+int cap = sb.capacity();
+
+8️⃣ length()
+Returns the number of characters.
+
+int len = sb.length();
+
+9️⃣ charAt()
+Returns character at specific index.
+
+char c = sb.charAt(1);
+
+🔟 setCharAt()
+Modifies a character at index.
+
+sb.setCharAt(0, 'H');
+
+1️⃣1️⃣ toString()
+Converts StringBuilder back to String.
+
+String str = sb.toString();
+
+⭐ Quick Summary Table
+Method	        Purpose
+append()	    Add text at end
+insert()	    Add text at a position
+replace()	    Replace characters between indices
+delete()	    Remove characters between indices
+deleteCharAt()	Remove a single char
+reverse()	    Reverse characters
+capacity()	    Internal memory size
+length()	    Current character count
+charAt()	    Get character
+setCharAt()	    Set character
+toString()	    Convert to String

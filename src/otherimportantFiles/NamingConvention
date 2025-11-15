@@ -1,0 +1,96 @@
+✅ 1. Class Naming Convention
+
+Use PascalCase (Every word starts with a capital letter)
+
+Name should be noun (represents an object/entity)
+
+Examples:
+
+Employee
+StudentDetails
+OrderController
+
+✅ 2. Variable Naming Convention
+
+Use camelCase (first letter small, inner words capital)
+
+Name should be a noun
+
+It should be meaningful
+
+Examples:
+
+int employeeId;
+String firstName;
+double totalAmount;
+
+✅ 3. Method Naming Convention
+
+Use camelCase
+
+Name should be a verb (because methods perform action)
+
+Examples:
+
+void calculateSalary()
+String getEmployeeName()
+boolean isValidUser()
+
+✅ 4. Interface Naming Convention
+
+Use PascalCase
+
+Name should represent capabilities or behavior
+
+Often ends with -able or -ible (not mandatory)
+
+Examples:
+
+Runnable
+Serializable
+PaymentService
+DatabaseOperations
+
+✅ 5. Enum Naming Convention
+🔹 Enum Name
+
+Use PascalCase
+
+enum Color { ... }
+enum StatusType { ... }
+
+🔹 Enum Constants
+
+Use ALL_CAPS with underscores
+
+Examples:
+
+enum Status {
+    ACTIVE,
+    INACTIVE,
+    PENDING,
+    FAILED
+}
+
+✅ 6. Package Naming Convention
+
+(Adding this because it's often asked)
+
+Use lowercase
+
+Usually reverse domain name
+
+Examples:
+
+com.company.project
+org.example.app.service
+
+🔥 Interview-Ready One-Liner Summary
+Element	          Convention	        Example
+Class	          PascalCase	        EmployeeDetails
+Variable	      camelCase	            totalAmount
+Method	          camelCase (verb)	    calculateSalary()
+Interface	      PascalCase	        Runnable, PaymentService
+Enum Name	      PascalCase	        StatusType
+Enum Constants	  ALL_CAPS	            ACTIVE, FAILED
+Package	          lowercase	            com.example.service

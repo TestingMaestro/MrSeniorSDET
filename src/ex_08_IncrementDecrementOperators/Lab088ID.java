@@ -5,7 +5,7 @@ public class Lab088ID {
 
         int a = 10;
         int result = a++;
-        System.out.println(result); //10
-        System.out.println(a++ + a); //11
+        System.out.println(result);
+        System.out.println(a++ + a);
     }
 }

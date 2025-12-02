@@ -6,7 +6,6 @@ public class ExcZStringPalindrome {
     }
 
     static boolean flag = true;
-
     static void stringPalindrome(String str) {
 
         for (int i = 0; i < str.length(); i++) {

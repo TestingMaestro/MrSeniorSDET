@@ -1,0 +1,9 @@
+** Real Industry Uses
+** Static blocks are used for:
+
+Loading configuration files (config.properties, environment files)
+Initializing loggers (Log4j, SLF4J)
+Loading database drivers (legacy JDBC)
+Static caching (country codes, constants, lookups)
+Creating singleton objects (Driver managers, API clients)
+Startup validation (checking environment variables, mandatory settings)

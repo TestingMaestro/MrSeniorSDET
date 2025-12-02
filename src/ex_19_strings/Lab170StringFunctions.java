@@ -4,6 +4,7 @@ public class Lab170StringFunctions {
     static void main(String[] args) {
 
         String s1 = "            Yashodhar Karki";
+        char [] ch = {'a'};
 
         s1 = s1.concat("-> Automation Expert              ");
         System.out.println(s1);

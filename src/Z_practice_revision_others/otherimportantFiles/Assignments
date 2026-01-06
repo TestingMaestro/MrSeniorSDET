@@ -1,0 +1,10 @@
+Assignment #1
+
+1. Write a Program considering 2 class Student and VTU
+    --> Student class has college method which has grade and college name as input
+    --> Vtu class has 3 college methods with different arguments
+    --> Achieve method Overloading
+2. Write a Program to achieve a method overloading with a class called Employee
+    --> which has a method called software engineer
+    --> hint --> each args consists of employee name and others are optional like
+                - emp id, emp grade, emp sal, emp dept

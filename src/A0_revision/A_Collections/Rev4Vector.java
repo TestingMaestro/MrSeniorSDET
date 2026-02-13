@@ -1,8 +1,7 @@
-package A0_revision.Collections;
+package A0_revision.A_Collections;
 
 import java.util.ArrayList;
 import java.util.Enumeration;
-import java.util.List;
 import java.util.Vector;
 
 public class Rev4Vector {

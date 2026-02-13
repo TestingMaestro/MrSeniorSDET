@@ -1,4 +1,4 @@
-package A0_revision.MAP;
+package A0_revision.B_MAP;
 
 import java.util.*;
 

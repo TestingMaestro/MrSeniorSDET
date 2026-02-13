@@ -1,0 +1,12 @@
+
+
+
+
+
+| Conversion             | Technique name         | What happens                                                      |
+| ---------------------- | ---------------------- | ----------------------------------------------------------------- |
+| int → Integer          | **Boxing**             | Primitive value is wrapped into an object                         |
+| Integer → int          | **Unboxing**           | Object value converted back to primitive                          |
+| String → int           | **Parsing**            | Text number converted to primitive using `parseInt()`             |
+| String → Integer       | **Wrapper conversion** | Text converted to wrapper object using `valueOf()`                |
+| int / Integer → String | **String conversion**  | Number converted to text using `String.valueOf()` or `toString()` |

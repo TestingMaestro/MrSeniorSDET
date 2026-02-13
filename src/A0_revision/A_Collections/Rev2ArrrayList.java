@@ -1,4 +1,4 @@
-package A0_revision.Collections;
+package A0_revision.A_Collections;
 
 import java.util.*;
 

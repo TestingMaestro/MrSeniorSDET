@@ -3,8 +3,8 @@ package ex_42_generics;
 public class GenericClass2 {
 
     // Static Generic method with return type void and with Generic param
-    static <T> void show(T value) {
-        System.out.println("Show: " + value);
+    static <T> void show() {
+        System.out.println("Show: " + "Hello static generic method");
     }
 
     // Static generic method returning Generic Type
@@ -19,7 +19,7 @@ public class GenericClass2 {
         String s1 = b1.getValue();
         System.out.println(s1.toLowerCase());
 
-        show("Hello static generic method");
+        show();
         String ss = getValue("Benki");
         System.out.println(ss);
     }

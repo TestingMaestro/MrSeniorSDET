@@ -5,8 +5,6 @@ public class Laptop2 extends Laptop {
     String laptopModel;
 
     public Laptop2() {
-        this.laptopName = "H Victus Z899";
-        this.laptopModel = "2024";
         super("Yash");
     }
 

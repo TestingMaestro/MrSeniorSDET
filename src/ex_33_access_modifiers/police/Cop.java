@@ -8,7 +8,6 @@ public class Cop extends Hacker {
     String iCard;
 
     public Cop(int bullet) {
-        this.bullet = bullet;
         super(12);
     }
 
@@ -20,7 +19,7 @@ public class Cop extends Hacker {
         System.out.println("Default access modifier");
     }
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         Cop cp = new Cop(100);
         cp.canIShoot();
